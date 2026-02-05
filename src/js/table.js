@@ -2,6 +2,9 @@ const jsonFile = "src/data/data.json";
 const urlParams = new URLSearchParams(window.location.search);
 const selectedLetter = urlParams.get("letter");
 
+// Toggle hover highlighting: change to false to disable
+const HOVER_HIGHLIGHT = false;
+
 function loadTable() {
 	console.log("Loading table...");
 	console.log("Selected Letter:", selectedLetter);
@@ -85,7 +88,11 @@ function renderFileLevel(data, letter) {
 		(h) => h !== "ID" && h !== "IMAGE" && h !== "DESCRIPTION",
 	);
 
-	let html = "<table><thead><tr>";
+	let html = "<table";
+	if (!HOVER_HIGHLIGHT) {
+		html += " class='highlight-disabled'";
+	}
+	html += "><thead><tr>";
 	html += "<th>#</th>";
 	headers.forEach((h) => (html += `<th>${h}</th>`));
 	html += "</tr></thead><tbody>";
@@ -108,7 +115,8 @@ function renderFileLevel(data, letter) {
 		}
 
 		const rowNumber = filteredData.indexOf(row) + 1;
-		html += "<tr>";
+		const imagePath = row.IMAGE ? row.IMAGE.toString().trim() : "";
+		html += `<tr data-image-path="${imagePath}">`;
 		html += `<td>${rowNumber}</td>`;
 		headers.forEach((h, index) => {
 			let content = row[h] ? row[h].toString().trim() : "";

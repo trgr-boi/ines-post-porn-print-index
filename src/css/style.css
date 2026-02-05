@@ -98,6 +98,22 @@ table td {
   border-right: 1px solid #000;
   border-bottom: 1px solid #000;
   padding: 8px;
+  transition: background-color 0.1s ease;
+}
+
+/* Google Sheets-style hover highlighting - toggle HOVER_HIGHLIGHT in table.js to disable */
+table:not(.highlight-disabled) tbody td:hover {
+  background-color: #f0f0f0;
+}
+
+/* Highlight entire row and column on hover */
+table:not(.highlight-disabled) tbody tr:hover td {
+  background-color: #f0f0f0;
+}
+
+/* Extra emphasis on the hovered cell */
+table:not(.highlight-disabled) tbody td:hover {
+  background-color: #e8e8e8;
 }
 
 /* remove bottom for letter rows */
@@ -119,6 +135,124 @@ table td:last-child {
 table tr:last-child th,
 table tr:last-child td {
   border-bottom: none;
+}
+
+/* Image preview and modal styles */
+.image-preview {
+  position: fixed;
+  display: none;
+  z-index: 100;
+  max-width: 150px;
+  max-height: 200px;
+  pointer-events: none;
+  left: 20px;
+  bottom: 40px;
+  top: auto;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.image-preview.visible {
+  opacity: 1;
+}
+
+.image-preview img {
+  max-width: 100%;
+  max-height: 100%;
+  border: 2px solid #000;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.no-image {
+  padding: 20px;
+  background-color: #fff;
+  border: 2px solid #000;
+  text-align: center;
+  font-family: inherit;
+  color: #666;
+}
+
+.modal-no-image {
+  padding: 40px;
+  font-size: 18px;
+}
+
+.image-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 200;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.image-modal.hidden {
+  display: none;
+}
+
+.image-modal.visible {
+  opacity: 1;
+}
+  padding: 40px;
+  font-size: 18px;
+}
+
+.image-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 200;
+}
+
+.image-modal.hidden {
+  display: none;
+}
+
+.modal-content {
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.modal-image {
+  max-width: 100%;
+  max-height: 90vh;
+  object-fit: contain;
+}
+
+.modal-close {
+  position: absolute;
+  top: -40px;
+  right: 0;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 32px;
+  cursor: pointer;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease;
+}
+
+.modal-close:hover {
+  transform: scale(1.2);
 }
 
 /* Mobile  - WIP */
