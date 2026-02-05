@@ -200,9 +200,6 @@ table tr:last-child td {
 .image-modal.visible {
   opacity: 1;
 }
-  padding: 40px;
-  font-size: 18px;
-}
 
 .image-modal {
   position: fixed;
