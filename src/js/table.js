@@ -3,7 +3,7 @@ const urlParams = new URLSearchParams(window.location.search);
 const selectedLetter = urlParams.get("letter");
 
 // Toggle hover highlighting: change to false to disable
-const HOVER_HIGHLIGHT = false;
+const HOVER_HIGHLIGHT = true;
 
 // Cached data for search filtering
 let allData = [];

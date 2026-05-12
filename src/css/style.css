@@ -127,17 +127,17 @@ table tbody tr:not(.letter-row) td {
 }
 
 /* Google Sheets-style hover highlighting - toggle HOVER_HIGHLIGHT in table.js to disable */
-table:not(.highlight-disabled) tbody td:hover {
+table:not(.highlight-disabled) tbody tr:not(.letter-row) td:hover {
   background-color: #f0f0f0;
 }
 
-/* Highlight entire row and column on hover */
-table:not(.highlight-disabled) tbody tr:hover td {
+/* Highlight entire row on hover */
+table:not(.highlight-disabled) tbody tr:not(.letter-row):hover td {
   background-color: #f0f0f0;
 }
 
 /* Extra emphasis on the hovered cell */
-table:not(.highlight-disabled) tbody td:hover {
+table:not(.highlight-disabled) tbody tr:not(.letter-row) td:hover {
   background-color: #e8e8e8;
 }
 
