@@ -145,14 +145,12 @@ function checkImageExists(imagePath) {
 	});
 }
 
-function renderImageGrid() {
+function renderImageGrid(filteredList) {
+	const dataToRender = filteredList || [...allData].sort((a, b) => a.TITLE.localeCompare(b.TITLE));
 	const container = document.getElementById("images-container");
 
-	// Sort by title
-	const sorted = [...allData].sort((a, b) => a.TITLE.localeCompare(b.TITLE));
-
 	let html = '<div class="images-grid">';
-	sorted.forEach((row) => {
+	dataToRender.forEach((row) => {
 		const imagePath = row.IMAGE ? row.IMAGE.toString().trim() : "";
 		if (!imagePath) return;
 
@@ -181,4 +179,27 @@ function renderImageGrid() {
 	});
 }
 
-window.onload = loadImageGrid;
+function initSearch() {
+	const input = document.getElementById("search-input");
+	if (!input) return;
+	input.addEventListener("input", () => {
+		const q = input.value.trim().toLowerCase();
+		if (!q) {
+			renderImageGrid();
+			return;
+		}
+		const filtered = [...allData]
+			.filter((row) =>
+				Object.values(row).some(
+					(val) => val && val.toString().toLowerCase().includes(q),
+				)
+			)
+			.sort((a, b) => a.TITLE.localeCompare(b.TITLE));
+		renderImageGrid(filtered);
+	});
+}
+
+window.onload = () => {
+	loadImageGrid();
+	initSearch();
+};
