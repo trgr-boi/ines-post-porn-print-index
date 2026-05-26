@@ -1,6 +1,24 @@
 #!/usr/bin/env python3
+"""
+Usage:
+    python helpers/tsv_to_json.py
+
+Converts the TSV source file into the JSON data file used by the site.
+
+    Input:  src/tsv/a_post_porn_art_index_original.tsv
+    Output: src/data/data.json
+
+Each row is mapped to a JSON object with the following fields:
+    ID, IMAGE, TITLE, ISSUE NUMBER, AUTHOR(S), TYPE, PLACE, YEAR,
+    DESCRIPTION, PUBLISHER, PRINT DETAILS
+
+IDs are auto-generated (0001, 0002, …) and IMAGE paths are set to
+"src/img/<ID>.jpg".
+"""
 import csv
 import json
+import shutil
+from datetime import date
 from pathlib import Path
 
 INPUT_PATH = Path("src/tsv/a_post_porn_art_index_original.tsv")
@@ -38,6 +56,11 @@ def main() -> None:
         raise SystemExit(f"Input file not found: {INPUT_PATH}")
 
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+
+    if OUTPUT_PATH.exists():
+        backup = OUTPUT_PATH.with_name(f"data-{date.today()}.json.bak")
+        shutil.copy2(OUTPUT_PATH, backup)
+        print(f"Backed up existing file to {backup}")
 
     with INPUT_PATH.open(newline="", encoding="utf-8") as f:
         reader = csv.reader(f, delimiter="\t")
