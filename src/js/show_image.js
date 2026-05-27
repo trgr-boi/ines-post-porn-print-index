@@ -150,10 +150,10 @@ function openImageModal(imagePath, rowData) {
 }
 
 function closeModal() {
-	imageModal.scrollTop = 0;
 	document.body.style.overflow = "";
 	imageModal.classList.remove("visible");
 	setTimeout(() => {
+		imageModal.scrollTop = 0;
 		imageModal.classList.add("hidden");
 		imageModal.innerHTML = "";
 	}, 300);

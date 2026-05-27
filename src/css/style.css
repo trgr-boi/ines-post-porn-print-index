@@ -1,3 +1,49 @@
+:root {
+  /*
+    MAIN COLORS
+    Change these to restyle the whole site.
+  */
+  --main-color-front: #000;
+  --main-color-front-light: #999;
+  --main-color-back: #fff;
+  --main-color-accent-normal: red;
+  --main-color-accent-light: #ffe3e3;
+  --main-color-accent-lightest: #fff1f1;
+
+  /*
+    FUNCTIONAL COLORS
+    These reference the main colors above.
+    Only change these if you need to decouple a specific element.
+  */
+
+  /* General */
+  --color-text: var(--main-color-front);
+  --color-background: var(--main-color-back);
+  --color-link-hover: var(--main-color-accent-normal);
+  --color-border: var(--main-color-front);
+  --color-input-focus: var(--main-color-accent-normal);
+
+  /* Table */
+  --color-row-hover: var(--main-color-accent-lightest);
+  --color-cell-hover: var(--main-color-accent-light);
+
+  /* Modal / overlay */
+  --color-overlay: rgba(0, 0, 0, 0.8);
+  --color-card-shadow: var(--main-color-front);
+  --color-no-image-text: var(--main-color-front-light);
+
+  /* Card grid */
+  --color-card-bg: #f0f0f0;
+
+  /* Data panel */
+  --color-data-label: var(--main-color-front-light);
+  --color-data-value: var(--main-color-front);
+  --color-scroll-indicator: var(--main-color-back);
+
+  /* About page */
+  --color-citation-highlight: var(--main-color-accent-light);
+}
+
 @font-face {
   font-family: "sans";
   src: url("/src/fonts/Amiamie-Regular.otf") format("opentype");
@@ -14,12 +60,12 @@ body {
 
 a {
   text-decoration: none;
-  color: #000;
+  color: var(--color-text);
   transition: color 0.2s ease;
 }
 
 a:hover {
-  color: red;
+  color: var(--color-link-hover);
 }
 
 .search-wrapper {
@@ -32,7 +78,7 @@ a:hover {
   font-family: inherit;
   font-size: inherit;
   border: none;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid var(--color-border);
   outline: none;
   background: transparent;
   width: 120px;
@@ -40,7 +86,7 @@ a:hover {
 }
 
 #search-input:focus {
-  border-bottom-color: red;
+  border-bottom-color: var(--color-input-focus);
 }
 
 #header {
@@ -73,9 +119,9 @@ table {
 table thead {
   position: sticky;
   top: calc(var(--alphabet-nav-height, 0px) - 1px);
-  background-color: #fff;
+  background-color: var(--color-background);
   z-index: 10;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid var(--color-border);
 }
 
 table thead > * {
@@ -93,14 +139,14 @@ table thead > * {
   box-sizing: border-box;
   position: sticky;
   top: 0;
-  background-color: #fff;
+  background-color: var(--color-background);
   z-index: 20;
 }
 
 #alphabet-nav-divider {
   margin: 0;
   border: none;
-  border-top: 1px solid #000;
+  border-top: 1px solid var(--color-border);
   position: sticky;
   top: var(--alphabet-nav-height, 0px);
   z-index: 15;
@@ -116,10 +162,10 @@ table thead > * {
 
 table th,
 table td {
-  border-right: 1px solid #000;
-  border-bottom: 1px solid #000;
+  border-right: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
   padding: 8px;
-  transition: background-color 0.1s ease;
+  transition: background-color 0.3s ease;
 }
 
 table tbody tr:not(.letter-row) td {
@@ -128,17 +174,17 @@ table tbody tr:not(.letter-row) td {
 
 /* Google Sheets-style hover highlighting - toggle HOVER_HIGHLIGHT in table.js to disable */
 table:not(.highlight-disabled) tbody tr:not(.letter-row) td:hover {
-  background-color: #f0f0f0;
+  background-color: var(--color-cell-hover);
 }
 
 /* Highlight entire row on hover */
 table:not(.highlight-disabled) tbody tr:not(.letter-row):hover td {
-  background-color: #f0f0f0;
+  background-color: var(--color-row-hover);
 }
 
 /* Extra emphasis on the hovered cell */
 table:not(.highlight-disabled) tbody tr:not(.letter-row) td:hover {
-  background-color: #e8e8e8;
+  background-color: var(--color-cell-hover);
 }
 
 /* remove bottom for letter rows */
@@ -184,18 +230,18 @@ table tr:last-child td {
 .image-preview img {
   max-width: 100%;
   max-height: 100%;
-  border: 2px solid #000;
-  background-color: #fff;
+  border: 2px solid var(--color-border);
+  background-color: var(--color-background);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .no-image {
   padding: 20px;
-  background-color: #fff;
-  border: 2px solid #000;
+  background-color: var(--color-background);
+  border: 2px solid var(--color-border);
   text-align: center;
   font-family: inherit;
-  color: #666;
+  color: var(--color-no-image-text);
 }
 
 .card-no-image {
@@ -216,7 +262,7 @@ table tr:last-child td {
 .image-modal {
   position: fixed;
   inset: 0;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: var(--color-overlay);
   z-index: 200;
   overflow-y: auto;
   opacity: 0;
@@ -242,21 +288,20 @@ table tr:last-child td {
 
 .image-card {
   cursor: pointer;
-  border: 1px solid #000;
   overflow: hidden;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
 .image-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 4px 0px rgba(0, 0, 0, 1);
+  box-shadow: 0 4px 0px var(--color-card-shadow);
 }
 
 .image-card-img {
   width: 100%;
   aspect-ratio: 3 / 4;
   overflow: hidden;
-  background: #f0f0f0;
+  background: var(--color-card-bg);
 }
 
 .image-card-img img {
@@ -267,12 +312,7 @@ table tr:last-child td {
 }
 
 .image-card-title {
-  padding: 6px 8px;
-  font-size: 0.85rem;
-  border-top: 1px solid #000;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  display: none;
 }
 
 /* ===== Modal with data panel ===== */
@@ -307,11 +347,11 @@ table tr:last-child td {
 }
 
 .modal-data {
-  background: #fff;
+  background: var(--color-background);
   padding: 32px 24px;
   max-width: 500px;
   width: 100%;
-  border: 1px solid #000;
+  border: 1px solid var(--color-border);
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -327,13 +367,13 @@ table tr:last-child td {
   font-size: 0.7rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: #999;
+  color: var(--color-data-label);
 }
 
 .modal-data-value {
   font-size: 0.9rem;
   line-height: 1.3;
-  color: #000;
+  color: var(--color-data-value);
 }
 
 .scroll-indicator {
@@ -342,8 +382,7 @@ table tr:last-child td {
   left: 50%;
   transform: translateX(-50%);
   z-index: 3;
-  color: #fff;
-  font-size: 1.2rem;
+  color: var(--color-scroll-indicator);
   opacity: 1;
   transition: opacity 0.2s ease;
   pointer-events: auto;
@@ -364,12 +403,7 @@ table tr:last-child td {
     gap: 10px;
     padding: 10px;
   }
-}
 
-/* Mobile  - WIP */
-/* TODO: Improve mobile styles */
-
-@media (max-width: 850px) {
   #header {
     flex-direction: column;
     align-items: flex-start;
