@@ -86,6 +86,7 @@ function buildModalDataHTML(rowData) {
 		["DESCRIPTION", "Description"],
 		["PUBLISHER", "Publisher"],
 		["PRINT DETAILS", "Print Details"],
+		["SOURCE", "Source"],
 	];
 	let html = '<div class="modal-data">';
 	fields.forEach(([key, label]) => {

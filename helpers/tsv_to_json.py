@@ -44,6 +44,7 @@ FIELDS = [
     "DESCRIPTION",
     "PUBLISHER",
     "PRINT DETAILS",
+    "SOURCE",
 ]
 
 TSV_COLUMNS = {
@@ -56,6 +57,7 @@ TSV_COLUMNS = {
     "DESCRIPTION": "DESCRIPTION",
     "PUBLISHER": "PUBLISHER",
     "PRINT DETAILS": "PRINT DETAILS",
+    "SOURCE": "bron?",
 }
 
 
