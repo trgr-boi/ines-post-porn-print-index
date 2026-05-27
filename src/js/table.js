@@ -8,6 +8,14 @@ const HOVER_HIGHLIGHT = true;
 // Cached data for search filtering
 let allData = [];
 
+/** Get the cover image (first in the array) from an entry. */
+function getCoverImage(row) {
+	const images = row.IMAGE;
+	if (Array.isArray(images) && images.length > 0) return images[0];
+	if (typeof images === "string" && images && images !== "/todo") return images;
+	return "";
+}
+
 function loadTable() {
 	console.log("Loading table...");
 	console.log("Selected Letter:", selectedLetter);
@@ -151,7 +159,7 @@ function renderFileLevel(data, letter) {
 		}
 
 		const rowNumber = filteredData.indexOf(row) + 1;
-		const imagePath = row.IMAGE ? row.IMAGE.toString().trim() : "";
+		const imagePath = getCoverImage(row);
 		const rowJson = JSON.stringify(row).replace(/&/g, '&amp;').replace(/'/g, '&#39;');
 		html += `<tr data-image-path="${imagePath}" data-row='${rowJson}'>`;
 		html += `<td>${rowNumber}</td>`;
