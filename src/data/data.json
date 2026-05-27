@@ -790,7 +790,7 @@
     "PUBLISHER": "",
     "PRINT DETAILS": "14 x 21,6 cm, copied, spine stapled, 38 pages,",
     "ID": "0061",
-    "IMAGE": ""
+    "IMAGE": "/todo"
   },
   {
     "TITLE": "Girl Germs",
@@ -842,7 +842,7 @@
     "PUBLISHER": "Girls Like Us",
     "PRINT DETAILS": "20 x 28 cm, 120 pages",
     "ID": "0065",
-    "IMAGE": ""
+    "IMAGE": "/todo"
   },
   {
     "TITLE": "Girls Like Us: Objectified",
@@ -1037,7 +1037,7 @@
     "PUBLISHER": "DFT",
     "PRINT DETAILS": "20 x 14 cm, printed on heavy stock paper, 20 pages",
     "ID": "0080",
-    "IMAGE": "/todo"
+    "IMAGE": "src/img/kake-1.jpg"
   },
   {
     "TITLE": "Kellerjournal",
@@ -1206,7 +1206,7 @@
     "PUBLISHER": "non-profit",
     "PRINT DETAILS": "offset printed, 21.59 x 27.94 cm, 52 pages including covers, stapled, black and white photos",
     "ID": "0093",
-    "IMAGE": ""
+    "IMAGE": "src/img/lesbia_52-1.png"
   },
   {
     "TITLE": "Lesbia",
@@ -1219,7 +1219,7 @@
     "PUBLISHER": "non-profit",
     "PRINT DETAILS": "offset printed, 21.59 x 27.94 cm, 52 pages including covers, stapled, black and white photos",
     "ID": "0094",
-    "IMAGE": ""
+    "IMAGE": "src/img/lesbia_53-1.png"
   },
   {
     "TITLE": "Lesbia",
@@ -1232,7 +1232,7 @@
     "PUBLISHER": "non-profit",
     "PRINT DETAILS": "offset printed, 21.59 x 27.94 cm, 52 pages including covers, stapled, black and white photos",
     "ID": "0095",
-    "IMAGE": ""
+    "IMAGE": "src/img/lesbia_59-1.png"
   },
   {
     "TITLE": "Lesbos",
@@ -1245,7 +1245,7 @@
     "PUBLISHER": "Underground Press",
     "PRINT DETAILS": "Offset printed, perfect bound in cardstock wraps. 128 pages. Includes advertisement card tipped in at back, 15,8 x 17,8 cm",
     "ID": "0096",
-    "IMAGE": ""
+    "IMAGE": "src/img/lesbos-1.png"
   },
   {
     "TITLE": "LTTR: Lesbians to the Rescue",
@@ -1258,7 +1258,7 @@
     "PUBLISHER": "LTTR",
     "PRINT DETAILS": "BOOTLEG AVAILABLE; 32 p. , offset, saddle stitched, photocopy and letterpress on yellow paper wrappers; with screenprinted door hanger, bookmark, photocopied insert, 23 x 21,6 cm",
     "ID": "0097",
-    "IMAGE": ""
+    "IMAGE": "src/img/lttr-1.jpg"
   },
   {
     "TITLE": "Mietje",
@@ -1271,7 +1271,7 @@
     "PUBLISHER": "",
     "PRINT DETAILS": "large-format",
     "ID": "0098",
-    "IMAGE": ""
+    "IMAGE": "src/img/mietje_6-1.png"
   },
   {
     "TITLE": "Mietje: Flikkers & Links Filmsupplement",
@@ -1284,7 +1284,7 @@
     "PUBLISHER": "",
     "PRINT DETAILS": "large-format",
     "ID": "0099",
-    "IMAGE": ""
+    "IMAGE": "src/img/mietje_5-1.png"
   },
   {
     "TITLE": "Mietje: Seks en Konkurrentie",
@@ -1297,7 +1297,7 @@
     "PUBLISHER": "",
     "PRINT DETAILS": "large-format",
     "ID": "0100",
-    "IMAGE": ""
+    "IMAGE": "src/img/mietje_2-1.png"
   },
   {
     "TITLE": "Mudflap",
@@ -1310,7 +1310,7 @@
     "PUBLISHER": "self-published",
     "PRINT DETAILS": "photocopied, saddle stitch, red paper wrappers, 21,5 x 18 cm, 36 pages",
     "ID": "0101",
-    "IMAGE": ""
+    "IMAGE": "src/img/mudflap_5-1.jpg"
   },
   {
     "TITLE": "My Comrade / Sister!: 'Tits and Cock Extravaganza'",
@@ -1323,7 +1323,7 @@
     "PUBLISHER": "My Comrade",
     "PRINT DETAILS": "offset in glossy wrapped, soft cover, saddle staple, 24 x 31 cm",
     "ID": "0102",
-    "IMAGE": ""
+    "IMAGE": "src/img/mycomrade_9-1.png"
   },
   {
     "TITLE": "Nova",
@@ -1336,7 +1336,7 @@
     "PUBLISHER": "IPC Magazines",
     "PRINT DETAILS": "25,4 x 20,3 cm, ca. 100 pages",
     "ID": "0103",
-    "IMAGE": ""
+    "IMAGE": "src/img/nova-1.png"
   },
   {
     "TITLE": "Oz",
@@ -1349,7 +1349,7 @@
     "PUBLISHER": "Oz Publications Ink Limited",
     "PRINT DETAILS": "46 pages, 20 x 30 cm",
     "ID": "0104",
-    "IMAGE": ""
+    "IMAGE": "src/img/oz_23-1.jpeg"
   },
   {
     "TITLE": "Oz",
@@ -1362,7 +1362,7 @@
     "PUBLISHER": "Oz Publications Ink Limited",
     "PRINT DETAILS": "56 pages, 20 x 30 cm",
     "ID": "0105",
-    "IMAGE": ""
+    "IMAGE": "src/img/oz_42-1.png"
   },
   {
     "TITLE": "Oz",
@@ -1375,7 +1375,7 @@
     "PUBLISHER": "Oz Publications Ink Limited",
     "PRINT DETAILS": "56 pages, 20 x 30 cm",
     "ID": "0106",
-    "IMAGE": ""
+    "IMAGE": "src/img/oz_44-1.jpeg"
   },
   {
     "TITLE": "PICK",
@@ -1388,7 +1388,7 @@
     "PUBLISHER": "Pickpocket Gallery",
     "PRINT DETAILS": "20 pages, 13,7 x 19 cm, edition of 100",
     "ID": "0107",
-    "IMAGE": ""
+    "IMAGE": "src/img/pick-1.png"
   },
   {
     "TITLE": "Pips - Zeitschrift für unkommerz & unzeitgeist 1/90 Sextüte",
@@ -1401,7 +1401,7 @@
     "PUBLISHER": "Pips-Dada-Corporation",
     "PRINT DETAILS": "35 pages, 21 x 29,7 cm, held together with a plastic clip, compromising various papers and materials, edition of 200 copies",
     "ID": "0108",
-    "IMAGE": ""
+    "IMAGE": "src/img/pips-1.jpg"
   },
   {
     "TITLE": "Pornceptual Magazine: Fetish",
@@ -1414,7 +1414,7 @@
     "PUBLISHER": "Pornceptual Collective",
     "PRINT DETAILS": "",
     "ID": "0109",
-    "IMAGE": ""
+    "IMAGE": "src/img/pornceptual_2-1.jpg"
   },
   {
     "TITLE": "Pornceptual Magazine: FLUIDS",
@@ -1427,7 +1427,7 @@
     "PUBLISHER": "Pornceptual Collective",
     "PRINT DETAILS": "200 pages, color",
     "ID": "0110",
-    "IMAGE": ""
+    "IMAGE": "src/img/pornceptual_5-1.jpg"
   },
   {
     "TITLE": "Pornceptual Magazine: Fuck 2020",
@@ -1440,7 +1440,7 @@
     "PUBLISHER": "Pornceptual Collective",
     "PRINT DETAILS": "228 pages, color",
     "ID": "0111",
-    "IMAGE": ""
+    "IMAGE": "src/img/pornceptual_4-1.jpg"
   },
   {
     "TITLE": "Pornceptual Magazine: Guerilla",
@@ -1453,7 +1453,7 @@
     "PUBLISHER": "Pornceptual Collective",
     "PRINT DETAILS": "210 pages, color",
     "ID": "0112",
-    "IMAGE": ""
+    "IMAGE": "src/img/pornceptual_3-1.png"
   },
   {
     "TITLE": "Pornceptual Magazine: Pornifesto",
@@ -1466,7 +1466,7 @@
     "PUBLISHER": "Pornceptual Collective",
     "PRINT DETAILS": "",
     "ID": "0113",
-    "IMAGE": ""
+    "IMAGE": "src/img/pornceptual_1-1.jpg"
   },
   {
     "TITLE": "Post Porn Modernist",
@@ -1479,7 +1479,7 @@
     "PUBLISHER": "Museum Editions B.V",
     "PRINT DETAILS": "127 pages, hardcover",
     "ID": "0114",
-    "IMAGE": ""
+    "IMAGE": "src/img/postporn_modernist-1.webp"
   },
   {
     "TITLE": "Precious Liquid: Sweet Edition",
@@ -1492,7 +1492,7 @@
     "PUBLISHER": "Precious Liquid",
     "PRINT DETAILS": "direct tone offset printing with fushia and black duotone and CMYK twisted with fushia, 120 pages",
     "ID": "0115",
-    "IMAGE": ""
+    "IMAGE": "src/img/precious_liquid_2-1.png"
   },
   {
     "TITLE": "Public Illumination Magazine: Sex issue",
@@ -1505,7 +1505,7 @@
     "PUBLISHER": "Casa Sorci",
     "PRINT DETAILS": "7x11 cm, 26 pages",
     "ID": "0116",
-    "IMAGE": ""
+    "IMAGE": "src/img/public_Illumnation_66-1.png"
   },
   {
     "TITLE": "Punk Party '93",
@@ -1518,7 +1518,7 @@
     "PUBLISHER": "",
     "PRINT DETAILS": "16pg, 13.9 x 21.6cm, black and white photocopy, staple bound",
     "ID": "0117",
-    "IMAGE": ""
+    "IMAGE": "/todo"
   },
   {
     "TITLE": "Pussy Grazer",
@@ -1531,7 +1531,7 @@
     "PUBLISHER": "",
     "PRINT DETAILS": "photocopy, saddle stitched, 21,6 x 17,8 cm (half legal), 52 pages",
     "ID": "0118",
-    "IMAGE": ""
+    "IMAGE": "src/img/pussy_grazer_1-1.jpeg"
   },
   {
     "TITLE": "Pussy Grazer",
@@ -1544,7 +1544,7 @@
     "PUBLISHER": "",
     "PRINT DETAILS": "photocopy, saddle stitched, 21,6 x 17,8 cm (half legal), 52 pages",
     "ID": "0119",
-    "IMAGE": ""
+    "IMAGE": "src/img/pussy_grazer_3-1.jpeg"
   },
   {
     "TITLE": "Randy",
@@ -1557,7 +1557,7 @@
     "PUBLISHER": "Capricious Publishing",
     "PRINT DETAILS": "offset, saddle stitched, 25,4 x 19,6 cm",
     "ID": "0120",
-    "IMAGE": ""
+    "IMAGE": "src/img/randy_1-1.png"
   },
   {
     "TITLE": "Rebel Fux!",
@@ -1570,7 +1570,7 @@
     "PUBLISHER": "Kate Huh",
     "PRINT DETAILS": "mini-zine: printed on a single sheet of paper cut and folded into 8, approximately 10 x 7,5 cm, collage",
     "ID": "0121",
-    "IMAGE": ""
+    "IMAGE": "src/img/rebel_fux_14-1.png"
   },
   {
     "TITLE": "Revolt: mot sexuella fördomar",
@@ -1583,7 +1583,7 @@
     "PUBLISHER": "Revolt Press",
     "PRINT DETAILS": "50-80 pages",
     "ID": "0122",
-    "IMAGE": ""
+    "IMAGE": "src/img/revolt_11-1.jpg"
   },
   {
     "TITLE": "Sappho",
@@ -1596,7 +1596,7 @@
     "PUBLISHER": "Sappho Publications Ltd.",
     "PRINT DETAILS": "1000 copies; black and white",
     "ID": "0123",
-    "IMAGE": ""
+    "IMAGE": "src/img/sappho_2_2-21.jpg"
   },
   {
     "TITLE": "Sappho",
@@ -1609,7 +1609,7 @@
     "PUBLISHER": "Sappho Publications Ltd.",
     "PRINT DETAILS": "1000 copies; black and white",
     "ID": "0124",
-    "IMAGE": ""
+    "IMAGE": "src/img/sappho_4-1.png"
   },
   {
     "TITLE": "Screw: A Sex review",
@@ -1622,7 +1622,7 @@
     "PUBLISHER": "Milky Way Productions",
     "PRINT DETAILS": "12 pp., 42.5 x 29 cm., softcover, loose leaves, black-and-white, edition size unknown, offset-printed, folded in half",
     "ID": "0125",
-    "IMAGE": ""
+    "IMAGE": "src/img/screw_1_1-1.jpg"
   },
   {
     "TITLE": "Screw: A Sex review",
@@ -1635,7 +1635,7 @@
     "PUBLISHER": "Milky Way Productions",
     "PRINT DETAILS": "12 pp., 42.5 x 29 cm., softcover, loose leaves, black-and-white, edition size unknown, offset-printed, folded in half",
     "ID": "0126",
-    "IMAGE": ""
+    "IMAGE": "src/img/screw_1_5-1.png"
   },
   {
     "TITLE": "Screw: A Sex review",
@@ -1648,7 +1648,7 @@
     "PUBLISHER": "Milky Way Productions",
     "PRINT DETAILS": "28 pp., 42.5 x 29 cm., softcover, loose leaves, black-and-white, edition size unknown, offset-printed, folded in half, color wrapper",
     "ID": "0127",
-    "IMAGE": ""
+    "IMAGE": "src/img/screw_15-1.png"
   },
   {
     "TITLE": "Screw: A Sex review",
@@ -1661,7 +1661,7 @@
     "PUBLISHER": "Milky Way Productions",
     "PRINT DETAILS": "32 pp., 42.5 x 29 cm., softcover, loose leaves, black-and-white, edition size unknown, offset-printed, folded in half, color wrapper",
     "ID": "0128",
-    "IMAGE": ""
+    "IMAGE": "src/img/screw_48-1.png"
   },
   {
     "TITLE": "Sex",
@@ -1674,7 +1674,7 @@
     "PUBLISHER": "Warner Books, Maverick, Callaway",
     "PRINT DETAILS": "The cover is made of aluminium, spiral bound and wrapped in a boPET sheet, 128 pages, hardcover",
     "ID": "0129",
-    "IMAGE": ""
+    "IMAGE": "/todo"
   },
   {
     "TITLE": "Shrew",
@@ -1687,7 +1687,7 @@
     "PUBLISHER": "Women’s Liberation Workshop",
     "PRINT DETAILS": "16 pages",
     "ID": "0130",
-    "IMAGE": ""
+    "IMAGE": "src/img/shrew-1.jpg"
   },
   {
     "TITLE": "Shvantz!",
@@ -1700,7 +1700,7 @@
     "PUBLISHER": "",
     "PRINT DETAILS": "xerox print, 28 pages, 29,8 x 21 cm, 50 copies",
     "ID": "0131",
-    "IMAGE": ""
+    "IMAGE": "src/img/shvantz_1-1.jpg"
   },
   {
     "TITLE": "Shvantz!",
@@ -1713,7 +1713,7 @@
     "PUBLISHER": "",
     "PRINT DETAILS": "50 copies, 48 pages, printed in pink stock paper, xerox print, 29,8 x 21 cm,",
     "ID": "0132",
-    "IMAGE": ""
+    "IMAGE": "src/img/shvantz_9-1.jpg"
   },
   {
     "TITLE": "Shvantz!",
@@ -1726,7 +1726,7 @@
     "PUBLISHER": "",
     "PRINT DETAILS": "28 pages, 29,8 x 21 cm, 200 copies printed in offset",
     "ID": "0133",
-    "IMAGE": ""
+    "IMAGE": "src/img/shvantz_10-1.jpg"
   },
   {
     "TITLE": "Snarla",
@@ -1739,7 +1739,7 @@
     "PUBLISHER": "",
     "PRINT DETAILS": "photocopy, saddle stitched, 21,6 x 14 cm, 40 pages?",
     "ID": "0134",
-    "IMAGE": ""
+    "IMAGE": "src/img/snarla_5-1.png"
   },
   {
     "TITLE": "Spork",
@@ -1752,7 +1752,7 @@
     "PUBLISHER": "",
     "PRINT DETAILS": "",
     "ID": "0135",
-    "IMAGE": ""
+    "IMAGE": "src/img/spork_1-1.jpg"
   },
   {
     "TITLE": "STAMMER: The Sex Issue",
@@ -1765,7 +1765,7 @@
     "PUBLISHER": "",
     "PRINT DETAILS": "21,6 x 28 cm",
     "ID": "0136",
-    "IMAGE": ""
+    "IMAGE": "src/img/stammer_3-1.png"
   },
   {
     "TITLE": "Straight To Hell (S.T.H.): The Manhattan Review of Unnatural Acts",
@@ -1778,7 +1778,7 @@
     "PUBLISHER": "Boyd McDonald",
     "PRINT DETAILS": "21,6 x 28 cm, black and white",
     "ID": "0137",
-    "IMAGE": ""
+    "IMAGE": "src/img/sth_52-1.png"
   },
   {
     "TITLE": "Straight to Hell (S.T.H.): The Manhattan Review of Unnatural Acts",
@@ -1791,7 +1791,7 @@
     "PUBLISHER": "Boyd McDonald",
     "PRINT DETAILS": "21,6 x 28 cm, black and white",
     "ID": "0138",
-    "IMAGE": ""
+    "IMAGE": "src/img/sth_47-1.png"
   },
   {
     "TITLE": "Straight to Hell (S.T.H.): The New York Review of Cocksucking",
@@ -1804,7 +1804,7 @@
     "PUBLISHER": "Boyd McDonald",
     "PRINT DETAILS": "21,6 x 28 cm, black and white",
     "ID": "0139",
-    "IMAGE": ""
+    "IMAGE": "src/img/sth_49-1.jpg"
   },
   {
     "TITLE": "Suck: First European Sexpaper",
@@ -1817,7 +1817,7 @@
     "PUBLISHER": "Joy Publications",
     "PRINT DETAILS": "softcover, 44 x 31 cm, horizontal fold, 32 pages",
     "ID": "0140",
-    "IMAGE": ""
+    "IMAGE": "src/img/suck_1-1.jpg"
   },
   {
     "TITLE": "Suck: First European Sexpaper",
@@ -1830,7 +1830,7 @@
     "PUBLISHER": "Joy Publications",
     "PRINT DETAILS": "softcover, 44 x 31 cm, horizontal fold, 24 pages",
     "ID": "0141",
-    "IMAGE": ""
+    "IMAGE": "src/img/suck_2-1.jpg"
   },
   {
     "TITLE": "Suck: First European Sexpaper",
@@ -1843,7 +1843,7 @@
     "PUBLISHER": "Joy Publications",
     "PRINT DETAILS": "softcover, 44 x 31 cm, horizontal fold, 24 pages",
     "ID": "0142",
-    "IMAGE": ""
+    "IMAGE": "src/img/suck_3-1.jpg"
   },
   {
     "TITLE": "Suck: First European Sexpaper",
@@ -1856,7 +1856,7 @@
     "PUBLISHER": "Joy Publications",
     "PRINT DETAILS": "softcover, 44 x 31 cm, horizontal fold, 20 pages",
     "ID": "0143",
-    "IMAGE": ""
+    "IMAGE": "src/img/suck_4-1.jpg"
   },
   {
     "TITLE": "Suck: First European Sexpaper",
@@ -1869,7 +1869,7 @@
     "PUBLISHER": "Joy Publications",
     "PRINT DETAILS": "softcover, 44 x 31 cm, horizontal fold, 20 pages",
     "ID": "0144",
-    "IMAGE": ""
+    "IMAGE": "src/img/suck_5-1.jpg"
   },
   {
     "TITLE": "Suck: First European Sexpaper",
@@ -1882,7 +1882,7 @@
     "PUBLISHER": "Joy Publications",
     "PRINT DETAILS": "softcover, 44 x 31 cm, horizontal fold, 24 pages",
     "ID": "0145",
-    "IMAGE": ""
+    "IMAGE": "src/img/suck_7-1.jpg"
   },
   {
     "TITLE": "Suck: First European Sexpaper — Special family issue",
@@ -1895,7 +1895,7 @@
     "PUBLISHER": "Joy Publications",
     "PRINT DETAILS": "softcover, 44 x 31 cm, horizontal fold, 24 pages",
     "ID": "0146",
-    "IMAGE": ""
+    "IMAGE": "src/img/suck_6-1.jpg"
   },
   {
     "TITLE": "Suck: First European Sexpaper (last edition)",
@@ -1908,7 +1908,7 @@
     "PUBLISHER": "Joy Publications",
     "PRINT DETAILS": "softcover, 44 x 31 cm, horizontal fold, 28 pages",
     "ID": "0147",
-    "IMAGE": ""
+    "IMAGE": "src/img/suck_8-1.jpg"
   },
   {
     "TITLE": "Supermaschio",
@@ -1921,7 +1921,7 @@
     "PUBLISHER": "DIPRESS S.r.l.",
     "PRINT DETAILS": "63 pages, 21,6 x 28 cm",
     "ID": "0148",
-    "IMAGE": ""
+    "IMAGE": "src/img/supermaschio_87-1.jpg"
   },
   {
     "TITLE": "Tempo",
@@ -1934,7 +1934,7 @@
     "PUBLISHER": "Jahreszeiten Verslag",
     "PRINT DETAILS": "21 x 29,5",
     "ID": "0149",
-    "IMAGE": ""
+    "IMAGE": "src/img/tempo_7-1.png"
   },
   {
     "TITLE": "The Body Politic",
@@ -1947,7 +1947,7 @@
     "PUBLISHER": "Pink Triangle Press",
     "PRINT DETAILS": "tabloid-style, 43 cm height",
     "ID": "0150",
-    "IMAGE": ""
+    "IMAGE": "src/img/the_body_politic_6-1.png"
   },
   {
     "TITLE": "The Body Politic",
@@ -1960,7 +1960,7 @@
     "PUBLISHER": "Pink Triangle Press",
     "PRINT DETAILS": "tabloid style, 26 pages, 23 cm height",
     "ID": "0151",
-    "IMAGE": ""
+    "IMAGE": "src/img/the_body_politic_11-1.png"
   },
   {
     "TITLE": "The Body Politic",
@@ -1973,7 +1973,7 @@
     "PUBLISHER": "Pink Triangle Press",
     "PRINT DETAILS": "tabloid-style, 43 cm height",
     "ID": "0152",
-    "IMAGE": ""
+    "IMAGE": "src/img/the_body_politic_19-1.png"
   },
   {
     "TITLE": "The Body Politic",
@@ -1986,7 +1986,7 @@
     "PUBLISHER": "Pink Triangle Press",
     "PRINT DETAILS": "tabloid-style, 43 cm height",
     "ID": "0153",
-    "IMAGE": ""
+    "IMAGE": "src/img/the_body_politic_26-1.png"
   },
   {
     "TITLE": "The Body Politic",
@@ -1999,7 +1999,7 @@
     "PUBLISHER": "Pink Triangle Press",
     "PRINT DETAILS": "tabloid-style, 43 cm height",
     "ID": "0154",
-    "IMAGE": ""
+    "IMAGE": "src/img/the_Body_politic_30-1.png"
   },
   {
     "TITLE": "The Cherotic Revolutionary / (r)Evolutionary",
@@ -2012,7 +2012,7 @@
     "PUBLISHER": "Inter-Relations",
     "PRINT DETAILS": "offset, side stapled; 21,5 x 28 cm, 31 + 3 pages, postcard reproducing cover tipped in",
     "ID": "0155",
-    "IMAGE": ""
+    "IMAGE": "src/img/the_cherotic_revolution_3-1.jpg"
   },
   {
     "TITLE": "The Furies",
@@ -2025,7 +2025,7 @@
     "PUBLISHER": "Furies Collective",
     "PRINT DETAILS": "16 pages, tabloid-size",
     "ID": "0156",
-    "IMAGE": ""
+    "IMAGE": "src/img/the_furies_1-1.jpg"
   },
   {
     "TITLE": "The Lesbian Tide",
@@ -2038,7 +2038,7 @@
     "PUBLISHER": "Jeanne Cordova",
     "PRINT DETAILS": "32 pages, 28 x 21,6 cm",
     "ID": "0157",
-    "IMAGE": ""
+    "IMAGE": "src/img/the_lesbian_tide_2_6-1.jpg"
   },
   {
     "TITLE": "The Lesbian Tide",
@@ -2051,7 +2051,7 @@
     "PUBLISHER": "Jeanne Cordova",
     "PRINT DETAILS": "32 pages, 28 x 21,6 cm",
     "ID": "0158",
-    "IMAGE": ""
+    "IMAGE": "src/img/the_lesbian_tide_3_5-1.jpg"
   },
   {
     "TITLE": "The Lesbian Tide",
@@ -2064,7 +2064,7 @@
     "PUBLISHER": "Jeanne Cordova",
     "PRINT DETAILS": "printed on red paper!, 32 pages, 28 x 21,6 cm",
     "ID": "0159",
-    "IMAGE": ""
+    "IMAGE": "src/img/the_lesbian_tide_3_11-1.png"
   },
   {
     "TITLE": "The Lesbian Tide",
@@ -2077,7 +2077,7 @@
     "PUBLISHER": "Jeanne Cordova",
     "PRINT DETAILS": "32 pages, 28 x 21,6 cm",
     "ID": "0160",
-    "IMAGE": ""
+    "IMAGE": "src/img/the_lesbian_tide_4_1-1.jpg"
   },
   {
     "TITLE": "The New Woman's Survival Catalog",
@@ -2090,7 +2090,7 @@
     "PUBLISHER": "Coward, McCann & Geoghegan, Inc./Berkley Publishing Corporation",
     "PRINT DETAILS": "27.4 x 36.3 cm, 224 pages, paperback",
     "ID": "0161",
-    "IMAGE": ""
+    "IMAGE": "src/img/the_new_woman_s_survival_catalog-1.jpg"
   },
   {
     "TITLE": "The Nuntius",
@@ -2103,7 +2103,7 @@
     "PUBLISHER": "",
     "PRINT DETAILS": "28 pages, tabloid sized",
     "ID": "0162",
-    "IMAGE": ""
+    "IMAGE": "src/img/the_nuntius_2_5-1.jpg"
   },
   {
     "TITLE": "The TV-TS Tapestry (Transgender Tapestry)",
@@ -2116,7 +2116,7 @@
     "PUBLISHER": "Tiffany Club of New England, Inc.",
     "PRINT DETAILS": "21,6 x 28 cm",
     "ID": "0163",
-    "IMAGE": ""
+    "IMAGE": "src/img/the_tv-ts_tapestry_24-1.jpg"
   },
   {
     "TITLE": "The TV-TS Tapestry (Transgender Tapestry)",
@@ -2129,7 +2129,7 @@
     "PUBLISHER": "Tiffany Club of New England, Inc.",
     "PRINT DETAILS": "21,6 x 28 cm, aprrox. 100 pages",
     "ID": "0164",
-    "IMAGE": ""
+    "IMAGE": "src/img/the_tv-ts_tapestry_39-1.jpg"
   },
   {
     "TITLE": "The TV-TS Tapestry (Transgender Tapestry)",
@@ -2142,7 +2142,7 @@
     "PUBLISHER": "Tiffany Club of New England, Inc.",
     "PRINT DETAILS": "21,6 x 28 cm, approx. 130 pages",
     "ID": "0165",
-    "IMAGE": ""
+    "IMAGE": "src/img/the_tv-ts_tapestry_49-1.jpg"
   },
   {
     "TITLE": "THING",
@@ -2155,7 +2155,7 @@
     "PUBLISHER": "Robert Ford",
     "PRINT DETAILS": "offset, saddle stitched, color offset wrappers, 26,7 x 20,3 cm",
     "ID": "0166",
-    "IMAGE": ""
+    "IMAGE": "src/img/thing_4-1.png"
   },
   {
     "TITLE": "THING",
@@ -2168,7 +2168,7 @@
     "PUBLISHER": "Robert Ford",
     "PRINT DETAILS": "offset, saddle stitched, color offset wrappers, 26,7 x 20,3 cm",
     "ID": "0167",
-    "IMAGE": ""
+    "IMAGE": "src/img/thing_6-1.jpg"
   },
   {
     "TITLE": "THING",
@@ -2181,7 +2181,7 @@
     "PUBLISHER": "Robert Ford",
     "PRINT DETAILS": "offset, saddle stitched, color offset wrappers, 26,7 x 20,3 cm",
     "ID": "0168",
-    "IMAGE": ""
+    "IMAGE": "src/img/thing_7-1.png"
   },
   {
     "TITLE": "Thorn",
@@ -2194,7 +2194,7 @@
     "PUBLISHER": "",
     "PRINT DETAILS": "color and black-and-white photocopy, saddle stitched, 28 x 21,6 cm",
     "ID": "0169",
-    "IMAGE": ""
+    "IMAGE": "/todo"
   },
   {
     "TITLE": "Tom of Finland: Reference Zine",
@@ -2207,7 +2207,7 @@
     "PUBLISHER": "Innen Publishing",
     "PRINT DETAILS": "softcover, 28 pages, 13 x 19 cm, staple bound, b&w, offset printed in an edition of 500 copies",
     "ID": "0170",
-    "IMAGE": ""
+    "IMAGE": "src/img/tom_of_finland-1.png"
   },
   {
     "TITLE": "Transvestia",
@@ -2220,7 +2220,7 @@
     "PUBLISHER": "Chevalier Publications",
     "PRINT DETAILS": "18 x 22 cm, 90 pages",
     "ID": "0171",
-    "IMAGE": ""
+    "IMAGE": "src/img/transvestia_1_5-1.png"
   },
   {
     "TITLE": "Transvestia",
@@ -2233,7 +2233,7 @@
     "PUBLISHER": "Chevalier Publications",
     "PRINT DETAILS": "18 x 22 cm, 82 pages",
     "ID": "0172",
-    "IMAGE": ""
+    "IMAGE": "src/img/transvestia_1_6-1.png"
   },
   {
     "TITLE": "Transvestite Catalog",
@@ -2246,7 +2246,7 @@
     "PUBLISHER": "produced by the underground sex publishers Centurian",
     "PRINT DETAILS": "offset, saddle stapled in glossy pictorial wraps, 48 pages (cover included), 21,5 x 28 cm",
     "ID": "0173",
-    "IMAGE": ""
+    "IMAGE": "src/img/transvestite_3-1.png"
   },
   {
     "TITLE": "Ulalume",
@@ -2259,7 +2259,7 @@
     "PUBLISHER": "Lubek Verlag",
     "PRINT DETAILS": "44 pages, 17 x 24,5 cm, full-page color illsutrations",
     "ID": "0174",
-    "IMAGE": ""
+    "IMAGE": "src/img/ulalume-1.jpg"
   },
   {
     "TITLE": "Various Small Dicks",
@@ -2272,7 +2272,7 @@
     "PUBLISHER": "so-VIELE",
     "PRINT DETAILS": "16 pp, 15x10 cm, staple bound, printed in edition of 1000 copies",
     "ID": "0175",
-    "IMAGE": ""
+    "IMAGE": "src/img/various_small_dicks-1.jpg"
   },
   {
     "TITLE": "Vennen",
@@ -2285,7 +2285,7 @@
     "PUBLISHER": "Forbundet af 1948",
     "PRINT DETAILS": "black and white, digest size",
     "ID": "0176",
-    "IMAGE": ""
+    "IMAGE": "src/img/vennen_5-1.jpg"
   },
   {
     "TITLE": "Venus International. Eine Dokumentation der Fotokunst",
@@ -2298,7 +2298,7 @@
     "PUBLISHER": "EHAPA-Verslag",
     "PRINT DETAILS": "281 pages, 21,5 x 30 cm",
     "ID": "0177",
-    "IMAGE": ""
+    "IMAGE": "src/img/venus_international-1.png"
   },
   {
     "TITLE": "Verhungert",
@@ -2311,7 +2311,7 @@
     "PUBLISHER": "",
     "PRINT DETAILS": "86 pages",
     "ID": "0178",
-    "IMAGE": ""
+    "IMAGE": "src/img/verhungert-1.png"
   },
   {
     "TITLE": "Vikadin",
@@ -2324,7 +2324,7 @@
     "PUBLISHER": "",
     "PRINT DETAILS": "photocopy, saddle stitched, 21,6 x 14 cm",
     "ID": "0179",
-    "IMAGE": ""
+    "IMAGE": "src/img/vikadin-1.png"
   },
   {
     "TITLE": "VILE",
@@ -2337,7 +2337,7 @@
     "PUBLISHER": "Banana Productions",
     "PRINT DETAILS": "99 pages, 28 x 21 cm, paperback, gluebound, offset printed, black and white, printed in an edition of 1000 copies",
     "ID": "0180",
-    "IMAGE": ""
+    "IMAGE": "src/img/vile_3_2-1.jpg"
   },
   {
     "TITLE": "VILE",
@@ -2350,7 +2350,7 @@
     "PUBLISHER": "Banana Productions",
     "PRINT DETAILS": "66 pages, 28 x 21 cm, paperback, gluebound, offset printed, black and white",
     "ID": "0181",
-    "IMAGE": ""
+    "IMAGE": "src/img/vile_3_1-1.jpg"
   },
   {
     "TITLE": "VILE INTERNATIONAL (double issue)",
@@ -2363,7 +2363,7 @@
     "PUBLISHER": "Banana Productions",
     "PRINT DETAILS": "106 pages, offset printed, 28 x 21 cm",
     "ID": "0182",
-    "IMAGE": ""
+    "IMAGE": "src/img/vile_2_3-1.jpg"
   },
   {
     "TITLE": "VILE: FE-MAIL-ART",
@@ -2376,7 +2376,7 @@
     "PUBLISHER": "Banana Productions",
     "PRINT DETAILS": "reduced A4-size, ca. 100 pages, paperback, gluebound, offset printed, black and white",
     "ID": "0183",
-    "IMAGE": ""
+    "IMAGE": "src/img/vile_6-1.jpg"
   },
   {
     "TITLE": "Visionaire: Desire",
@@ -2389,7 +2389,7 @@
     "PUBLISHER": "Visionaire Publishing",
     "PRINT DETAILS": "individual illustrated sheets laid into a debossed silk-over-boards portfolio, published in an edition of 2000 copies",
     "ID": "0184",
-    "IMAGE": ""
+    "IMAGE": "src/img/visionaire_12-1.jpg"
   },
   {
     "TITLE": "What is Riot Grrrl Anyway?",
@@ -2402,7 +2402,7 @@
     "PUBLISHER": "self published",
     "PRINT DETAILS": "",
     "ID": "0185",
-    "IMAGE": ""
+    "IMAGE": "/todo"
   },
   {
     "TITLE": "Yantras of Womanlove: Diagrams of Energy",
@@ -2415,7 +2415,7 @@
     "PUBLISHER": "Naiad Press",
     "PRINT DETAILS": "60 pages; 28 cm; softcover, black and white",
     "ID": "0186",
-    "IMAGE": ""
+    "IMAGE": "src/img/yantras_of_womanlove-1.jpg"
   },
   {
     "TITLE": "Yes, Ms Davis",
@@ -2428,7 +2428,7 @@
     "PUBLISHER": "Vaginal Davis",
     "PRINT DETAILS": "photocopied, bound with paper clip, 22 x 21,5 cm",
     "ID": "0187",
-    "IMAGE": ""
+    "IMAGE": "src/img/yes_ms_davis-1.png"
   },
   {
     "TITLE": "Zack Magazine",
@@ -2441,6 +2441,6 @@
     "PUBLISHER": "Rick Castro",
     "PRINT DETAILS": "photocopied, side stapled, 28 x 21,5  cm",
     "ID": "0188",
-    "IMAGE": ""
+    "IMAGE": "src/img/zack_1_1-1.png"
   }
 ]
