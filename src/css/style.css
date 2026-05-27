@@ -156,6 +156,11 @@ table thead > * {
   font-weight: 600;
 }
 
+#alphabet-nav a[data-letter="top"] {
+  position: relative;
+  top: -2px;
+}
+
 .letter {
   font-size: 60pt;
 }
