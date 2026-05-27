@@ -169,8 +169,50 @@ function renderFileLevel(data, letter) {
 	document.getElementById("table-container").innerHTML = html;
 }
 
+function initColumnHighlight() {
+	const tableContainer = document.getElementById("table-container");
+	if (!tableContainer) return;
+
+	tableContainer.addEventListener("mouseover", (e) => {
+		const th = e.target.closest("th");
+		if (!th) return;
+		const table = th.closest("table");
+		if (!table || table.classList.contains("highlight-disabled")) return;
+
+		// Get column index
+		const headerRow = th.parentElement;
+		const colIndex = Array.from(headerRow.children).indexOf(th);
+
+		// Clear previous highlights
+		table.querySelectorAll(".col-highlight").forEach((el) => el.classList.remove("col-highlight"));
+
+		// Highlight all cells in that column
+		table.querySelectorAll("tr").forEach((row) => {
+			const cell = row.children[colIndex];
+			if (cell) cell.classList.add("col-highlight");
+		});
+	});
+
+	tableContainer.addEventListener("mouseleave", () => {
+		tableContainer.querySelectorAll(".col-highlight").forEach((el) => el.classList.remove("col-highlight"));
+	});
+
+	// Also clear when mouse leaves the thead area
+	tableContainer.addEventListener("mouseout", (e) => {
+		if (e.target.closest("th")) {
+			const related = e.relatedTarget;
+			// If we're no longer over a th, clear highlights
+			if (!related || !related.closest("th")) {
+				const table = e.target.closest("table");
+				if (table) table.querySelectorAll(".col-highlight").forEach((el) => el.classList.remove("col-highlight"));
+			}
+		}
+	});
+}
+
 window.onload = () => {
 	loadTable();
 	initSearch();
+	initColumnHighlight();
 };
 window.addEventListener("resize", updateAlphabetNavOffset);

@@ -187,6 +187,15 @@ table:not(.highlight-disabled) tbody tr:not(.letter-row) td:hover {
   background-color: var(--color-cell-hover);
 }
 
+/* Column highlight on header hover */
+table:not(.highlight-disabled) td.col-highlight {
+  background-color: var(--color-row-hover);
+}
+
+table:not(.highlight-disabled) th.col-highlight {
+  background-color: var(--color-cell-hover);
+}
+
 /* remove bottom for letter rows */
 table tbody tr.letter-row td {
   border-bottom: none;
