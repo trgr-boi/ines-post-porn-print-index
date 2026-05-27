@@ -161,6 +161,13 @@ table thead > * {
   top: -2px;
 }
 
+.citation {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  font-weight: bold;
+  padding-left: 2px;
+}
+
 .letter {
   font-size: 60pt;
 }
