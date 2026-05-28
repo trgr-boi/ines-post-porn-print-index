@@ -540,6 +540,20 @@ table tr:last-child td {
   cursor: pointer;
 }
 
+.dev-menu-btn {
+  font-family: inherit;
+  font-size: inherit;
+  background: none;
+  border: 1px solid var(--color-border);
+  padding: 2px 8px;
+  cursor: pointer;
+}
+
+.dev-menu-btn:hover {
+  background: var(--main-color-front);
+  color: var(--main-color-back);
+}
+
 /* ===== Mobile ===== */
 
 @media (max-width: 850px) {

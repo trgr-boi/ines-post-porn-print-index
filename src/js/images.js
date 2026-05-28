@@ -14,6 +14,7 @@ function loadImageGrid() {
 			allData = data.filter(
 				(row) => row.TITLE && row.TITLE.trim() !== ""
 			);
+			window._allData = allData;
 			renderImageGrid();
 		})
 		.catch((err) => {

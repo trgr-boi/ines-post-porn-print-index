@@ -29,6 +29,7 @@ function loadTable() {
 			allData = data.filter(
 				(row) => row.TITLE && row.TITLE.trim() !== "",
 			);
+			window._allData = allData;
 			if (allData.length === 0) {
 				document.getElementById("table-container").innerHTML =
 					"<p>No rows with TITEL found in JSON.</p>";
