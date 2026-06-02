@@ -554,6 +554,38 @@ table tr:last-child td {
   color: var(--main-color-back);
 }
 
+/* ===== About page ===== */
+
+#about-content {
+  /* FOR INES */
+
+    /* small & center */
+    /* max-width: 800px;
+    margin: 0 auto; */
+
+    /* padding */
+    padding: 0px 20px;
+
+  font-size: 1.55rem;
+  line-height: 1.2;
+}
+
+#about-content p {
+  margin: 0;
+  text-indent: 1em;
+}
+
+#about-content h2,
+#about-content h3 {
+  text-indent: 0;
+}
+
+#about-content p:first-child,
+#about-content h2 + p,
+#about-content h3 + p {
+  text-indent: 0;
+}
+
 /* ===== Mobile ===== */
 
 @media (max-width: 850px) {
