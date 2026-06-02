@@ -16,7 +16,7 @@ document.body.appendChild(imageModal);
 
 // Close on clicking outside interactive elements
 imageModal.addEventListener("click", (e) => {
-	if (!e.target.closest(".modal-image") && !e.target.closest(".modal-data") && !e.target.closest(".scroll-indicator") && !e.target.closest(".nav-arrow") && !e.target.closest(".peek-image")) {
+	if (!e.target.closest(".modal-image") && !e.target.closest(".modal-data") && !e.target.closest(".scroll-indicator") && !e.target.closest(".nav-arrow") && !e.target.closest(".modal-thumbs")) {
 		closeModal();
 	}
 });
@@ -29,10 +29,8 @@ imageModal.addEventListener("scroll", () => {
 	img.style.transform = `scale(${1 - progress * 0.15})`;
 	img.style.opacity = 1 - progress * 0.7;
 
-	const peekL = imageModal.querySelector(".peek-left");
-	const peekR = imageModal.querySelector(".peek-right");
-	if (peekL) peekL.style.opacity = 0.3 - progress * 0.3;
-	if (peekR) peekR.style.opacity = 0.3 - progress * 0.3;
+	const thumbs = imageModal.querySelector(".modal-thumbs");
+	if (thumbs) thumbs.style.opacity = Math.max(0, 1 - progress * 2.5);
 
 	const downIndicator = imageModal.querySelector(".scroll-indicator-down");
 	const upIndicator = imageModal.querySelector(".scroll-indicator-up");
@@ -114,14 +112,9 @@ function updateModalImages() {
 	if (!mainImg) {
 		mainImg = document.createElement("img");
 		mainImg.className = "modal-image";
-		mainImg.addEventListener("click", (e) => {
-			e.stopPropagation();
-			navigateImage(1);
-		});
 		imageSection.appendChild(mainImg);
 	}
 	mainImg.src = currentImages[currentImageIndex];
-	// Set initial state explicitly so first scroll doesn't glitch
 	if (!mainImg.style.transform) mainImg.style.transform = "scale(1)";
 	if (!mainImg.style.opacity) mainImg.style.opacity = "1";
 	mainImg.onload = () => {
@@ -139,40 +132,28 @@ function updateModalImages() {
 		noImg.textContent = "no image";
 	};
 
-	// Peek left (previous image)
-	let peekL = imageSection.querySelector(".peek-left");
-	if (currentImageIndex > 0) {
-		if (!peekL) {
-			peekL = document.createElement("img");
-			peekL.className = "peek-image peek-left";
-			peekL.addEventListener("click", (e) => {
-				e.stopPropagation();
-				navigateImage(-1);
-			});
-			imageSection.appendChild(peekL);
+	// Thumbnail strip
+	let thumbs = imageSection.querySelector(".modal-thumbs");
+	if (currentImages.length > 1) {
+		if (!thumbs) {
+			thumbs = document.createElement("div");
+			thumbs.className = "modal-thumbs";
+			imageSection.appendChild(thumbs);
 		}
-		peekL.src = currentImages[currentImageIndex - 1];
-		peekL.style.display = "";
-	} else if (peekL) {
-		peekL.style.display = "none";
-	}
-
-	// Peek right (next image)
-	let peekR = imageSection.querySelector(".peek-right");
-	if (currentImageIndex < currentImages.length - 1) {
-		if (!peekR) {
-			peekR = document.createElement("img");
-			peekR.className = "peek-image peek-right";
-			peekR.addEventListener("click", (e) => {
+		thumbs.innerHTML = "";
+		currentImages.forEach((src, i) => {
+			const thumb = document.createElement("img");
+			thumb.src = src;
+			thumb.className = "modal-thumb" + (i === currentImageIndex ? " active" : "");
+			thumb.addEventListener("click", (e) => {
 				e.stopPropagation();
-				navigateImage(1);
+				currentImageIndex = i;
+				updateModalImages();
 			});
-			imageSection.appendChild(peekR);
-		}
-		peekR.src = currentImages[currentImageIndex + 1];
-		peekR.style.display = "";
-	} else if (peekR) {
-		peekR.style.display = "none";
+			thumbs.appendChild(thumb);
+		});
+	} else if (thumbs) {
+		thumbs.remove();
 	}
 
 	updateNavArrows();
@@ -213,7 +194,7 @@ function openImageModal(imagePath, rowData) {
 	imageSection.className = "modal-image-section";
 	imageModal.appendChild(imageSection);
 
-	// Set images (main + peek)
+	// Set images (main + thumbs)
 	if (currentImages.length > 0) {
 		updateModalImages();
 	} else {
