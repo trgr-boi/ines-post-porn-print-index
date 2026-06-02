@@ -13,6 +13,11 @@
 
 	const definitions = [
 		{
+			key: "showMissingImages",
+			label: "Only missing images",
+			type: "checkbox",
+		},
+		{
 			key: "previewAllImages",
 			label: "Load all images",
 			type: "button",
@@ -77,8 +82,69 @@
 		input.addEventListener("change", () => {
 			config[input.dataset.key] = input.checked;
 			config._save();
+
+			if (input.dataset.key === "showMissingImages") {
+				applyMissingImagesFilter(input.checked);
+			}
 		});
 	});
+
+	// Apply initial state
+	if (config.showMissingImages) {
+		applyMissingImagesFilter(true);
+	}
+
+	function applyMissingImagesFilter(active) {
+		// Index page: filter table rows
+		const tableRows = document.querySelectorAll("table tbody tr:not(.letter-row)");
+		if (tableRows.length > 0) {
+			// First pass: hide/show data rows
+			tableRows.forEach((row) => {
+				if (active) {
+					const hasImage = row.dataset.imagePath && row.dataset.imagePath.trim() !== "";
+					row.style.display = hasImage ? "none" : "";
+				} else {
+					row.style.display = "";
+				}
+			});
+
+			// Second pass: hide letter rows with no visible data rows below them
+			const letterRows = document.querySelectorAll("table tbody tr.letter-row");
+			letterRows.forEach((letterRow) => {
+				if (!active) {
+					letterRow.style.display = "";
+					return;
+				}
+				// Check if any visible data row follows this letter row before the next letter row
+				let sibling = letterRow.nextElementSibling;
+				let hasVisible = false;
+				while (sibling && !sibling.classList.contains("letter-row")) {
+					if (sibling.style.display !== "none") {
+						hasVisible = true;
+						break;
+					}
+					sibling = sibling.nextElementSibling;
+				}
+				letterRow.style.display = hasVisible ? "" : "none";
+			});
+		}
+
+		// Images page: filter cards
+		const cards = document.querySelectorAll(".image-card");
+		if (cards.length > 0) {
+			const data = window._allData || [];
+			cards.forEach((card) => {
+				if (active) {
+					const rowData = data.find((r) => r.ID === card.dataset.id);
+					const imgs = rowData ? (Array.isArray(rowData.IMAGE) ? rowData.IMAGE : []) : [];
+					const hasImage = imgs.length > 0;
+					card.style.display = hasImage ? "none" : "";
+				} else {
+					card.style.display = "";
+				}
+			});
+		}
+	}
 
 	// Wire up buttons
 	definitions.forEach((def) => {

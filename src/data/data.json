@@ -138,7 +138,17 @@
     "PUBLISHER": "",
     "PRINT DETAILS": "hand-cut and photocopy, gouache painted cover, 21,6 x 17,8 cm, black and white, saddle stitch, 24 pages (covers?)",
     "ID": "0009",
-    "IMAGE": [],
+    "IMAGE": [
+      "src/img/beehive_2-1.png",
+      "src/img/beehive_2-2.jpg",
+      "src/img/beehive_2-3.jpg",
+      "src/img/beehive_2-4.jpg",
+      "src/img/beehive_2-5.jpg",
+      "src/img/beehive_2-6.jpg",
+      "src/img/beehive_2-7.jpg",
+      "src/img/beehive_2-8.jpg",
+      "src/img/beehive_2-9.jpg"
+    ],
     "SOURCE": "https://www.laurasplan.com/projects/beehive"
   },
   {
@@ -152,7 +162,9 @@
     "PUBLISHER": "",
     "PRINT DETAILS": "hand-cut and photocopy, gouache painted cover, 21,6 x 17,8 cm, black and white, saddle stitch",
     "ID": "0010",
-    "IMAGE": [],
+    "IMAGE": [
+      "src/img/beehive_3-1.jpg"
+    ],
     "SOURCE": "https://hyperallergic.com/copy-machine-manifestos-brooklyn-museum-underground-world-of-zines/"
   },
   {
@@ -1193,7 +1205,28 @@
     "PUBLISHER": "",
     "PRINT DETAILS": "photocopied, side stapled, 21,6 x 28 cm",
     "ID": "0075",
-    "IMAGE": [],
+    "IMAGE": [
+      "src/img/i_love_amy_carter-1.png",
+      "src/img/i_love_amy_carter-2.png",
+      "src/img/i_love_amy_carter-3.png",
+      "src/img/i_love_amy_carter-4.png",
+      "src/img/i_love_amy_carter-5.png",
+      "src/img/i_love_amy_carter-6.png",
+      "src/img/i_love_amy_carter-7.png",
+      "src/img/i_love_amy_carter-8.png",
+      "src/img/i_love_amy_carter-9.png",
+      "src/img/i_love_amy_carter-10.png",
+      "src/img/i_love_amy_carter-11.png",
+      "src/img/i_love_amy_carter-12.png",
+      "src/img/i_love_amy_carter-13.png",
+      "src/img/i_love_amy_carter-14.png",
+      "src/img/i_love_amy_carter-15.png",
+      "src/img/i_love_amy_carter-16.png",
+      "src/img/i_love_amy_carter-17.png",
+      "src/img/i_love_amy_carter-18.png",
+      "src/img/i_love_amy_carter-19.png",
+      "src/img/i_love_amy_carter-20.png"
+    ],
     "SOURCE": "Riot Grrrl collection boek"
   },
   {
@@ -1861,7 +1894,9 @@
     "PUBLISHER": "",
     "PRINT DETAILS": "16pg, 13.9 x 21.6cm, black and white photocopy, staple bound",
     "ID": "0117",
-    "IMAGE": [],
+    "IMAGE": [
+      "src/img/punk_party-1.png"
+    ],
     "SOURCE": ""
   },
   {
@@ -2692,7 +2727,14 @@
     "PUBLISHER": "",
     "PRINT DETAILS": "color and black-and-white photocopy, saddle stitched, 28 x 21,6 cm",
     "ID": "0169",
-    "IMAGE": [],
+    "IMAGE": [
+      "src/img/thorn_2-1.png",
+      "src/img/thorn_2-2.png",
+      "src/img/thorn_2-3.png",
+      "src/img/thorn_2-4.png",
+      "src/img/thorn_2-5.png",
+      "src/img/thorn_2-6.png"
+    ],
     "SOURCE": "Copy Machine Manifestos + Riot Grrrl Collection book"
   },
   {

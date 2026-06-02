@@ -12,6 +12,8 @@ window.SITE_CONFIG = (function () {
 	const defaults = {
 		// Whether the shrink/fade animation plays when scrolling down in the modal
 		scrollAnimation: true,
+		// Filter view to only show issues without images
+		showMissingImages: false,
 	};
 
 	// Merge with any saved overrides
