@@ -44,16 +44,6 @@
   --color-citation-highlight: var(--main-color-accent-light);
 }
 
-@font-face {
-  font-family: "sans";
-  src: url("/src/fonts/Amiamie-Regular.otf") format("opentype");
-}
-
-@font-face {
-  font-family: "dot";
-  src: url("/src/fonts/Doto_Rounded-Black.ttf") format("truetype");
-}
-
 body {
   font-family: "arial";
 }
