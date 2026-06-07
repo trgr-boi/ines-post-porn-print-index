@@ -37,7 +37,10 @@ No build step required — it's plain HTML/CSS/JS.
 │   │   ├── show_image.js     # Hover preview + opens modal (index page)
 │   │   ├── images.js         # Card grid + search (images page)
 │   │   ├── config.js         # Global site config (defaults + localStorage)
-│   │   └── dev-menu.js       # Dev settings panel (bottom-right)
+│   │   ├── dev-menu.js       # Dev settings panel (currently disabled)
+│   │   └── footer.js         # Shared footer loader
+│   ├── partials/
+│   │   └── footer.html       # Shared footer HTML
 │   └── tsv/                  # Source TSV data
 └── .github/workflows/
     └── jekyll-gh-pages.yml   # Deploys to GitHub Pages on push to main

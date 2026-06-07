@@ -4,9 +4,9 @@ The site is a static site with no build tools or frameworks.
 
 ## Pages
 
-- **`index.html`** — The main page. Loads the CSS, then `table.js`, `modal.js`, `show_image.js`, `config.js`, and `dev-menu.js`.
-- **`images.html`** — Card-based image gallery. Loads `modal.js`, `images.js`, `config.js`, and `dev-menu.js`.
-- **`about.html`** — About/essay page with citation linking. No JavaScript.
+- **`index.html`** — The main page. Loads the CSS, then `table.js`, `modal.js`, `show_image.js`, `config.js`, and `footer.js`.
+- **`images.html`** — Card-based image gallery. Loads `modal.js`, `images.js`, `config.js`, and `footer.js`.
+- **`about.html`** — About/essay page with citation linking. Loads `footer.js`.
 - **`info.html`** — Legacy dev info page (Dutch, outdated).
 
 ## Frontend Scripts
@@ -28,7 +28,7 @@ The full-screen modal overlay for viewing an issue's images and metadata:
 - **Open/close** — attaches a single modal element to the page; manages body scroll lock with scrollbar-width compensation.
 - **Image navigation** — left/right arrow keys, ▼ triangle arrows, or click the image to advance. Shows peek images (previous/next) scaled down behind the main image.
 - **Scroll animation** — scrolling down reveals a data panel; the image shrinks and fades as it scrolls. ▼/▲ indicators jump between image and data views.
-- **Data panel** — displays title, issue, author(s), type, place, year, description, publisher, print details, and source.
+- **Data panel** — displays title, issue, author(s), type, place, year, description, publisher, and print details.
 - **Keyboard** — Escape closes, ←/→ cycle images, ↑/↓ scroll between image and data.
 
 ### `show_image.js` (index page only)
@@ -52,9 +52,9 @@ Fetches `data.json` and renders a responsive card grid:
 
 Global site configuration (`window.SITE_CONFIG`). Defaults are defined in the file and can be overridden via localStorage through the dev menu.
 
-### `dev-menu.js` (shared)
+### `footer.js` (shared)
 
-A collapsible "dev" button in the bottom-right corner. Expands to show toggles that map to `SITE_CONFIG` keys. Settings persist across sessions via localStorage.
+Fetches `src/partials/footer.html` and injects a shared footer at the bottom of each page.
 
 ## Data
 
@@ -75,11 +75,11 @@ A collapsible "dev" button in the bottom-right corner. Expands to show toggles t
 | `PRINT DETAILS`  | Physical/print specs                             |
 | `SOURCE`         | Source/reference URL or citation                 |
 
-The table hides `ID`, `IMAGE`, `DESCRIPTION`, and `SOURCE` columns from the display. These are only shown in the modal.
+The table hides `ID`, `IMAGE`, `DESCRIPTION`, `SOURCE`, and any `_`-prefixed internal fields from the display. These are only shown in the modal (except SOURCE, which is hidden there too).
 
 ### Images
 
-`IMAGE` is an array. Entries with multiple images (e.g. a zine with several pages scanned) list all file paths. The first image is always the cover and is used for thumbnails and card views. All images are viewable in the modal by cycling with arrows or keyboard.
+`IMAGE` is an array (currently only the cover image `-1` is included, but the modal supports cycling through multiple images). The first image is always the cover and is used for thumbnails and card views.
 
 Image filenames in `src/img/` are grouped by base name (everything before the last `-N`). For example, `bikini_kill_1-1.png`, `bikini_kill_1-2.png`, `bikini_kill_1-3.png` are three pages of the same issue.
 
@@ -87,7 +87,7 @@ Image filenames in `src/img/` are grouped by base name (everything before the la
 
 `src/css/style.css` uses CSS custom properties for theming. Change the `--main-color-*` variables to restyle the entire site.
 
-- Custom fonts via `@font-face` (Amiamie for body, Doto Rounded for headings).
+- System Arial font (`font-family: "arial"`).
 - Sticky header and alphabet nav using `position: sticky` and a CSS variable (`--alphabet-nav-height`) for offset.
 - Modal overlay with sticky image section and scrolling data panel.
 - Peek images (prev/next) positioned behind the main modal image.
