@@ -43,7 +43,7 @@ No build step required — it's plain HTML/CSS/JS.
 │   │   └── footer.html       # Shared footer HTML
 │   └── tsv/                  # Source TSV data
 └── .github/workflows/
-    └── jekyll-gh-pages.yml   # Deploys to GitHub Pages on push to main
+    └── deploy.yml              # Deploys to GitHub Pages on push to main
 ```
 
 ## How It Works

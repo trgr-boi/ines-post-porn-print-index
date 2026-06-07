@@ -4,11 +4,11 @@ The site is deployed to **GitHub Pages** automatically.
 
 ## How It Works
 
-The workflow lives at `.github/workflows/jekyll-gh-pages.yml`. It:
+The workflow lives at `.github/workflows/deploy.yml`. It:
 
 1. Triggers on every push to `main` (also manually triggerable via the Actions tab).
-2. Builds with Jekyll (standard GitHub Pages pipeline) and deploys the entire repo as a static site.
-3. No actual Jekyll content is used — it just serves the static HTML/CSS/JS files.
+2. Deploys the repo root as a static site via GitHub Actions.
+3. No build step — the HTML/CSS/JS files are served as-is.
 
 ## Custom Domain
 
