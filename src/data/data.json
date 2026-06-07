@@ -970,7 +970,9 @@
     "PUBLISHER": "",
     "PRINT DETAILS": "14 x 21,6 cm, copied, spine stapled, 38 pages,",
     "ID": "0061",
-    "IMAGE": [],
+    "IMAGE": [
+      "src/img/girl_germs_1-1.jpg"
+    ],
     "SOURCE": ""
   },
   {
@@ -1032,7 +1034,9 @@
     "PUBLISHER": "Girls Like Us",
     "PRINT DETAILS": "20 x 28 cm, 120 pages",
     "ID": "0065",
-    "IMAGE": [],
+    "IMAGE": [
+      "src/img/girlslikeus_2_7-1.png"
+    ],
     "SOURCE": ""
   },
   {
@@ -1046,7 +1050,9 @@
     "PUBLISHER": "Girls Like Us",
     "PRINT DETAILS": "20 x 28 cm, 120 pages",
     "ID": "0066",
-    "IMAGE": [],
+    "IMAGE": [
+      "src/img/girlslikeus_2_1-1.png"
+    ],
     "SOURCE": ""
   },
   {
@@ -1284,7 +1290,9 @@
     "PUBLISHER": "Verein für sexuelle Gleichberechtigung (VSG)",
     "PRINT DETAILS": "24 pages",
     "ID": "0081",
-    "IMAGE": [],
+    "IMAGE": [
+      "src/img/kellerjournal-1.jpg"
+    ],
     "SOURCE": ""
   },
   {
@@ -2050,7 +2058,9 @@
     "PUBLISHER": "Warner Books, Maverick, Callaway",
     "PRINT DETAILS": "The cover is made of aluminium, spiral bound and wrapped in a boPET sheet, 128 pages, hardcover",
     "ID": "0129",
-    "IMAGE": [],
+    "IMAGE": [
+      "src/img/sex-1.jpg"
+    ],
     "SOURCE": ""
   },
   {
@@ -2944,7 +2954,9 @@
     "PUBLISHER": "self published",
     "PRINT DETAILS": "",
     "ID": "0185",
-    "IMAGE": [],
+    "IMAGE": [
+      "src/img/whatisriotgrrrl-1.png"
+    ],
     "SOURCE": ""
   },
   {
