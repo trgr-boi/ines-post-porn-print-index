@@ -26,9 +26,10 @@ function loadTable() {
 			return response.json();
 		})
 		.then((data) => {
-			allData = data.filter(
-				(row) => row.TITLE && row.TITLE.trim() !== "",
-			);
+			allData = data
+				.filter((row) => row.TITLE && row.TITLE.trim() !== "")
+				.sort((a, b) => a.TITLE.localeCompare(b.TITLE));
+			allData.forEach((row, i) => (row._rowNumber = i + 1));
 			window._allData = allData;
 			if (allData.length === 0) {
 				document.getElementById("table-container").innerHTML =
@@ -159,7 +160,7 @@ function renderFileLevel(data, letter) {
 			html += "</tr>";
 		}
 
-		const rowNumber = filteredData.indexOf(row) + 1;
+		const rowNumber = row._rowNumber;
 		const imagePath = getCoverImage(row);
 		const rowJson = JSON.stringify(row).replace(/&/g, '&amp;').replace(/'/g, '&#39;');
 		html += `<tr data-image-path="${imagePath}" data-row='${rowJson}'>`;
