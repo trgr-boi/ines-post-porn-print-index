@@ -24,6 +24,6 @@ No build step required — it's plain HTML/CSS/JS.
 
 ```bash
 # Serve locally
-python3 -m http.server 8000
-# Visit http://localhost:8000
+npx live-server
+# Visit http://127.0.0.1:8080
 ```

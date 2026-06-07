@@ -11,9 +11,9 @@ No build step required — it's plain HTML/CSS/JS.
 1. Clone the repo
 2. Open `index.html` in a browser, or serve it locally:
    ```bash
-   python3 -m http.server 8000
+   npx live-server
    ```
-3. Visit `http://localhost:8000`
+3. Visit `http://127.0.0.1:8080/`
 
 ## Project Overview
 
