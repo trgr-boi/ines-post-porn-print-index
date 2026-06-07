@@ -633,3 +633,12 @@ table tr:last-child td {
     font-size: 0.9rem;
   }
 }
+
+#shared-footer hr {
+  border: none;
+  border-top: 1px solid var(--color-border);
+}
+
+#shared-footer p {
+  text-align: center;
+}
