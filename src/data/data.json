@@ -171,13 +171,7 @@
     "PRINT DETAILS": "photocopy (xerox), side-stapled, 21,6 x 17,8 cm, 30 pages",
     "ID": "0011",
     "IMAGE": [
-      "src/img/bikini_kill_1-1.png",
-      "src/img/bikini_kill_1-2.png",
-      "src/img/bikini_kill_1-3.png",
-      "src/img/bikini_kill_1-4.png",
-      "src/img/bikini_kill_1-5.png",
-      "src/img/bikini_kill_1-6.png",
-      "src/img/bikini_kill_1-7.png"
+      "src/img/bikini_kill_1-1.png"
     ],
     "SOURCE": ""
   },
@@ -401,8 +395,7 @@
     "PRINT DETAILS": "Paperback, 49 pages",
     "ID": "0025",
     "IMAGE": [
-      "src/img/cunt_coloring_book-1.jpg",
-      "src/img/cunt_coloring_book-2.png"
+      "src/img/cunt_coloring_book-1.jpg"
     ],
     "SOURCE": "https://cpb-us-e1.wpmucdn.com/blogs.uoregon.edu/dist/7/11428/files/2017/03/Corinne_Cunt_Coloring_Book-28xs4er.pdf"
   },
@@ -930,8 +923,7 @@
     "PRINT DETAILS": "19.5 x 23.7 cm",
     "ID": "0058",
     "IMAGE": [
-      "src/img/gendertrash_2-1.png",
-      "src/img/gendertrash_2-2.png"
+      "src/img/gendertrash_2-1.png"
     ],
     "SOURCE": "https://digitalexhibitions.arquives.ca/exhibits/show/gendertrash/gendertrash-gallery"
   },
@@ -1085,8 +1077,7 @@
     "PRINT DETAILS": "28 x 22 cm, glue bond, offset printed, black and white, paperback cover in color",
     "ID": "0068",
     "IMAGE": [
-      "src/img/heresies_12-1.jpg",
-      "src/img/heresies_12-2.jpg"
+      "src/img/heresies_12-1.jpg"
     ],
     "SOURCE": ""
   },
@@ -1198,26 +1189,7 @@
     "PRINT DETAILS": "photocopied, side stapled, 21,6 x 28 cm",
     "ID": "0075",
     "IMAGE": [
-      "src/img/i_love_amy_carter-1.png",
-      "src/img/i_love_amy_carter-2.png",
-      "src/img/i_love_amy_carter-3.png",
-      "src/img/i_love_amy_carter-4.png",
-      "src/img/i_love_amy_carter-5.png",
-      "src/img/i_love_amy_carter-6.png",
-      "src/img/i_love_amy_carter-7.png",
-      "src/img/i_love_amy_carter-8.png",
-      "src/img/i_love_amy_carter-9.png",
-      "src/img/i_love_amy_carter-10.png",
-      "src/img/i_love_amy_carter-11.png",
-      "src/img/i_love_amy_carter-12.png",
-      "src/img/i_love_amy_carter-13.png",
-      "src/img/i_love_amy_carter-14.png",
-      "src/img/i_love_amy_carter-15.png",
-      "src/img/i_love_amy_carter-16.png",
-      "src/img/i_love_amy_carter-17.png",
-      "src/img/i_love_amy_carter-18.png",
-      "src/img/i_love_amy_carter-19.png",
-      "src/img/i_love_amy_carter-20.png"
+      "src/img/i_love_amy_carter-1.png"
     ],
     "SOURCE": "Riot Grrrl collection boek"
   },
@@ -2269,8 +2241,7 @@
     "PRINT DETAILS": "softcover, 44 x 31 cm, horizontal fold, 24 pages",
     "ID": "0141",
     "IMAGE": [
-      "src/img/suck_2-1.jpg",
-      "src/img/suck_2-2.jpg"
+      "src/img/suck_2-1.jpg"
     ],
     "SOURCE": "https://www.documentjournal.com/2018/11/revisiting-suck-magazines-experiment-in-radical-feminist-pornography/"
   },
@@ -2302,8 +2273,7 @@
     "PRINT DETAILS": "softcover, 44 x 31 cm, horizontal fold, 20 pages",
     "ID": "0143",
     "IMAGE": [
-      "src/img/suck_4-1.jpg",
-      "src/img/suck_4-2.jpg"
+      "src/img/suck_4-1.jpg"
     ],
     "SOURCE": "Revisiting Suck magazine’s experiment in radical feminist pornography"
   },
@@ -2319,8 +2289,7 @@
     "PRINT DETAILS": "softcover, 44 x 31 cm, horizontal fold, 20 pages",
     "ID": "0144",
     "IMAGE": [
-      "src/img/suck_5-1.jpg",
-      "src/img/suck_5-2.jpg"
+      "src/img/suck_5-1.jpg"
     ],
     "SOURCE": "Revisiting Suck magazine’s experiment in radical feminist pornography"
   },
@@ -2720,12 +2689,7 @@
     "PRINT DETAILS": "color and black-and-white photocopy, saddle stitched, 28 x 21,6 cm",
     "ID": "0169",
     "IMAGE": [
-      "src/img/thorn_2-1.png",
-      "src/img/thorn_2-2.png",
-      "src/img/thorn_2-3.png",
-      "src/img/thorn_2-4.png",
-      "src/img/thorn_2-5.png",
-      "src/img/thorn_2-6.png"
+      "src/img/thorn_2-1.png"
     ],
     "SOURCE": "Copy Machine Manifestos + Riot Grrrl Collection book"
   },
@@ -2917,9 +2881,7 @@
     "PRINT DETAILS": "66 pages, 28 x 21 cm, paperback, gluebound, offset printed, black and white",
     "ID": "0181",
     "IMAGE": [
-      "src/img/vile_3_1-1.jpg",
-      "src/img/vile_3_1-2.jpg",
-      "src/img/vile_3_1-3.jpg"
+      "src/img/vile_3_1-1.jpg"
     ],
     "SOURCE": ""
   },
@@ -2935,16 +2897,7 @@
     "PRINT DETAILS": "106 pages, offset printed, 28 x 21 cm",
     "ID": "0182",
     "IMAGE": [
-      "src/img/vile_2_3-1.jpg",
-      "src/img/vile_2_3-2.jpg",
-      "src/img/vile_2_3-3.jpg",
-      "src/img/vile_2_3-4.jpg",
-      "src/img/vile_2_3-5.jpg",
-      "src/img/vile_2_3-6.jpg",
-      "src/img/vile_2_3-7.jpg",
-      "src/img/vile_2_3-8.jpg",
-      "src/img/vile_2_3-9.jpg",
-      "src/img/vile_2_3-10.jpg"
+      "src/img/vile_2_3-1.jpg"
     ],
     "SOURCE": ""
   },
