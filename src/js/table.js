@@ -131,7 +131,7 @@ function renderFileLevel(data, letter) {
 	}
 
 	const headers = Object.keys(filteredData[0]).filter(
-		(h) => h !== "ID" && h !== "IMAGE" && h !== "DESCRIPTION" && h !== "SOURCE",
+		(h) => h !== "ID" && h !== "IMAGE" && h !== "DESCRIPTION" && h !== "SOURCE" && !h.startsWith("_"),
 	);
 
 	let html = "<table";
